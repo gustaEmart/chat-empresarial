@@ -1,5 +1,5 @@
 import React from 'react';
-import { useChat } from '../../hooks/useChat';
+import { useChat } from '../../contexts/ChatContext';
 
 const GroupList = () => {
   const { groups, setActiveConversation, activeConversation, unreadCounts } = useChat();

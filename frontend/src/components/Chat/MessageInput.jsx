@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useChat } from '../../hooks/useChat';
+import { useChat } from '../../contexts/ChatContext';
 
 const MessageInput = ({ conversationId, recipientId }) => {
   const [message, setMessage] = useState('');

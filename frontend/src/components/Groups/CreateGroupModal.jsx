@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useChat } from '../../hooks/useChat';
+import { useChat } from '../../contexts/ChatContext';
 import { useAuth } from '../../contexts/AuthContext';
 
 const CreateGroupModal = ({ onClose }) => {

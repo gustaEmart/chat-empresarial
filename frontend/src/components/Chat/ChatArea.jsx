@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useChat } from '../../hooks/useChat';
+import { useChat } from '../../contexts/ChatContext';
 import { useAuth } from '../../contexts/AuthContext';
 import MessageList from './MessageList';
 import MessageInput from './MessageInput';

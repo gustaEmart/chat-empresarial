@@ -1,5 +1,5 @@
 import React from 'react';
-import { useChat } from '../../hooks/useChat';
+import { useChat } from '../../contexts/ChatContext';
 
 const TypingIndicator = ({ conversationId }) => {
   const { typingUsers } = useChat();

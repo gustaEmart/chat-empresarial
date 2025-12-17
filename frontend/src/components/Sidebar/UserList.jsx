@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useChat } from '../../hooks/useChat';
+import { useChat } from '../../contexts/ChatContext';
 import { useAuth } from '../../contexts/AuthContext';
 import { usersAPI } from '../../services/api';
 
