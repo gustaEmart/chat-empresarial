@@ -144,7 +144,12 @@ cd frontend
 npm install
 ```
 
-3. Inicie o servidor de desenvolvimento:
+3. (Opcional) Crie o arquivo `.env` se precisar customizar URLs:
+```bash
+cp .env.example .env
+```
+
+4. Inicie o servidor de desenvolvimento:
 ```bash
 npm run dev
 ```
